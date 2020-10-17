@@ -7,13 +7,13 @@ import javax.persistence.Id;
 public class Bill {
 
 	@Id
-	private Integer bill_Id;
+	private Integer bill_Id;  // this is bill id 
 	private Integer product_Id;
-	private Integer customer_Id;
+	private Integer customer_Id;   // customer id 
 	private Double rate;
-	private Double tax_rate;
+	private Double tax_rate;   // price 
 	private Double price;
-	private Integer quantity;
+	private Integer quantity;   // quantity
 	public Integer getQuantity() {
 		return quantity;
 	}
