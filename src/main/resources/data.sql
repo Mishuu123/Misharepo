@@ -1,7 +1,9 @@
 INSERT INTO ADDRESS (address_Id, addressLOne, addressLTwo,city,state,country,zipCode) VALUES
 (1,'vardhman','sector10','sonipat','haryana','india',131001),
 (2,'ace_city','sector1','noida','Uttar_pardesh','india',201306),
-(3,'braham_colony','old_DC','sonipat','haryana','india',131001);
+(3,'braham_colony','old_DC','sonipat','haryana','india',131001);   
+
+
 
 INSERT INTO PRODUCT(product_Id,product_name,company,rate,tax_rate,tax_status) VALUES
 (1,'milk','amul',25,1.2,'active'),

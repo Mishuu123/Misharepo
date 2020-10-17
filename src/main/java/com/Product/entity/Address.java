@@ -7,8 +7,8 @@ import javax.persistence.Id;
 public class Address {
 
 	@Id
-	private Integer address_Id;
-	private String addressLOne;
+	private Integer address_Id;  //address id 
+	private String addressLOne;	//address one line 
 	private String addressLTwo;
 	private String city;
 	private String state;
